@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+    margin: auto;
+    margin-bottom: 10px;
+    max-width: 1024px;
+    border: 1px solid rgb(196, 196, 196);
+    padding: 10px;
+    font-family: "Montserrat", "Arial", sans-serif;
+    line-height: 1.7em;
+    
+}
+
+header {
+    margin: -10px;
+    height: 360px;
+    padding: 10px;
+    border-bottom: 1px solid rgba(196, 196, 196, 0.5);
+    background-color:rgba(249, 240, 219, 0.5)
+}
+
+main {
+    margin: 0 20px 0 20px;
+    
+}
+
+h1 {
+    margin-top: 20px;
+    font-weight: 400;
+    color: rgb(38, 39, 53);
+    
+}
+
+main h2 {
+    margin-bottom: 1em;
+    font-weight: 500;
+    color: rgb(50, 48, 65);
+}
+
+ul {
+    list-style-type: none;
+}
+
+.name-pic {
+    margin: 20px 0 0 35px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 30% 70%;
+  }
+
+.contact-information {
+    margin-top: 260px;
+    margin-left: 380px;
+    color: rgb(50, 48, 65);
+}
+
+.contact-information h2 {
+    display: inline;
+    margin: 0.3em;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.contact-information h3 {
+    display: inline;
+    font-weight: 400;
+}
+
+.skills-list {
+    padding: 5px;
+    list-style-type: none;
+}
+
+.education ul {
+    list-style-type: none;
+}
+
+.education span {
+    font-weight: 600;
+}
+
+.summary, .skills, .english-level, .education, .code-examples {
+    margin-top: 45px;
+}
