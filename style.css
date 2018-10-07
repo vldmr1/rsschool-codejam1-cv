@@ -10,6 +10,7 @@ body {
     padding: 10px;
     font-family: "Montserrat", "Arial", sans-serif;
     line-height: 1.8em;
+    margin-bottom: 10px;
 }
 
 header {
@@ -26,16 +27,21 @@ main {
 
 h1 {
     font-weight: 400;
-    margin: 0px;
+    margin-top: 10px;
 }
 
 main h2 {
     font-weight: 500;
+    margin-bottom: 1em;
 }
 
 ul {
     padding: 0;
     list-style-type: none;
+}
+
+.name-pic {
+    margin: 20px 0 0 20px;
 }
 
 .grid {
@@ -44,17 +50,19 @@ ul {
   }
 
 .contact-information {
-    align-items: end;
-    margin-top: 120px;
-    margin-left: 80px;
+    margin-top: 250px;
+    margin-left: 400px;
 }
 
 .contact-information h2 {
     font-weight: 500;
+    display: inline;
+    margin: 0.3em;
 }
 
 .contact-information h3 {
     font-weight: 400;
+    display: inline;
 }
 
 .skills-list {
@@ -69,6 +77,6 @@ ul {
     font-weight: 600;
 }
 
-.summary, .skills, .english-level, .education {
+.summary, .skills, .english-level, .education, .code-examples {
     margin-top: 60px;
 }
